@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background: rgb(52, 52, 52);
+        }
+        h1{
+            text-align: center;
+            color:rgb(0, 255, 123);
+        }
+        form{
+            background: rgba(26, 26, 26, 0.859);
+            margin-top: 220px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            border: none;
+            padding: 30px;
+            color: white;
+            font-family: arial;
+            border-radius: 9px;
+            box-shadow: 10px 10px 10px rgb(6, 168, 0);
+            transition: 0.7s;
+        }
+        div.form-group{
+            margin-bottom: 7px;
+        }
+        label{
+            display: block;
+        }
+        input{
+            width: 200px;
+            padding: 3px;
+        }
+        button{
+            background: linear-gradient(45deg, rgb(81, 255, 90), rgb(0, 255, 119));
+            padding: 6px;
+            margin-top: 15px;
+            display: block;
+            border: none;
+            color: rgb(25, 25, 25);
+            width: 100px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        form:hover{
+            box-shadow: 50px 50px 50px rgb(0, 255, 123);
+            padding: 40px;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="">
+        <h1>Cadastro &#9760;</h1>
+        <br>
+        <div class="form-group">
+            <label>nome:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="">e-mail:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="">idade:</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label for="">cep:</label>
+            <input type="text">
+        </div>
+        <button>CADASTRAR</button>
+    </form>
+</body>
+</html>
